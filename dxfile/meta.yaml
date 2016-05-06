@@ -1,0 +1,33 @@
+package:
+  name: dxfile
+  version: '0.3'
+
+source:
+  path: src
+  
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+ 
+  run:
+    - python
+    - h5py
+
+test:
+  # Python imports
+  imports:
+    - dxfile
+    - dxfile.dxtomo
+
+about:
+  home: http://dataexchange.readthedocs.org
+  license: BSD
+  summary: 'Reader/Writer for Data Exchange files.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

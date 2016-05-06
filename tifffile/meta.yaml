@@ -1,0 +1,27 @@
+package:
+  name: tifffile
+  version: 2014.08.24
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy
+
+  run:
+    - python
+    - numpy
+
+test:
+  # Python imports
+  imports:
+    - tifffile
+
+about:
+  license: BSD
+  home: http://www.lfd.uci.edu/~gohlke/
+  summary: 'Read and write image data from and to TIFF files'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

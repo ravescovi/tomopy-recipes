@@ -1,0 +1,29 @@
+package:
+  name: edffile
+  version: '1.6'
+  
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+ 
+  run:
+    - python
+    - numpy
+
+test:
+  # Python imports
+  imports:
+    - EdfFile
+
+about:
+  home: http://pymca.sourceforge.net/
+  license: BSD
+  summary: 'Reader for EDF files part of the PyMCA x-ray fluorescence toolkit'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

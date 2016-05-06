@@ -1,0 +1,31 @@
+package:
+  name: pywavelets
+  version: !!str 0.2.2
+
+source:
+  fn: PyWavelets-0.2.2.zip
+  url: https://pypi.python.org/packages/source/P/PyWavelets/PyWavelets-0.2.2.zip
+  md5: 77d3528e59058935d23ff7e2f02c4968
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - numpy
+
+test:
+  # Python imports
+  imports:
+    - pywt
+
+about:
+  home: http://www.pybytes.com/pywavelets/
+  license:  MIT License
+  summary: 'Wavelet transform module'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

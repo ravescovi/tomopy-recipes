@@ -1,0 +1,29 @@
+package:
+  name: spefile
+  version: '1.6'
+  
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+ 
+  run:
+    - python
+    - numpy
+
+test:
+  # Python imports
+  imports:
+    - spefile
+
+about:
+  home: https://pythonhosted.org/pyspec/
+  license: BSD
+  summary: 'Reader for SPE files part of pyspec a set of python routines for data analysis of x-ray scattering experiments'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml
