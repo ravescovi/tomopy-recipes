@@ -8,6 +8,17 @@ Example recipes for the new conda build system. Use::
 We suggest that the correct order should be:
 
 ::
+
+    for a in [5,4,3,2,1]:   # this is program code, shown as-is
+        print a
+    print "it's..."
+    # a literal block continues until the indentation ends
+
+This text has returned to the indentation of the first paragraph,
+is outside of the literal block, and is therefore treated as an
+ordinary paragraph.
+
+
     #download anaconda for linux64bits
     wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh
     bash Anaconda2-4.0.0-Linux-x86_64.sh #this will ask for ok
