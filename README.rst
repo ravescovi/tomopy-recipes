@@ -1,5 +1,5 @@
 Tomopy Recipes
-#############
+##############
 
 Example recipes for the new conda build system. Use::
 
