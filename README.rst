@@ -9,6 +9,8 @@ We suggest that the correct order should be:
 
 ::
 
+    #download anaconda for linux64bits
+    wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh
     for a in [5,4,3,2,1]:   # this is program code, shown as-is
         print a
     print "it's..."
