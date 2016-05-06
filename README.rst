@@ -11,6 +11,29 @@ We suggest that the correct order should be:
 
     #download anaconda for linux64bits
     wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh
+    bash Anaconda2-4.0.0-Linux-x86_64.sh #this will ask for ok
+    conda update --yes --all
+    
+    git clone https://github.com/ravescovi/tomopy-recipes.git
+    cd tomopy-recipes/
+    conda build tifffile/.
+    conda install --yes --use-local tifffile
+    conda build edffile/.
+    conda install --yes --use-local edffile
+    conda build spefile/.
+    conda install --yes --use-local spefile
+    conda build dxfile/.
+    conda install --yes --use-local dxfile
+    conda build olefile/.
+    conda install --yes --use-local olefile
+    conda build data-exchange/.
+    conda install --yes --use-local dxchange
+    conda build tomopy/. 
+    conda install --yes --use-local tomopy
+    conda build astra/.
+    conda install --yes --use-local astra-toolbox
+    cd ..
+
     for a in [5,4,3,2,1]:   # this is program code, shown as-is
         print a
     print "it's..."
