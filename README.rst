@@ -7,7 +7,7 @@ Example recipes for the new conda build system. Use::
 
 We suggest that the correct order should be:
 
-
+::
     #download anaconda for linux64bits
     wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh
     bash Anaconda2-4.0.0-Linux-x86_64.sh #this will ask for ok
