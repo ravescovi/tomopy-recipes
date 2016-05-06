@@ -26,7 +26,7 @@ We suggest that the correct order should be:
     conda build olefile/.
     conda install --yes --use-local olefile
     conda build data-exchange/.
-    conda install --yes --use-local data-exchange
+    conda install --yes --use-local dxchange
     conda build tomopy/. 
     conda install --yes --use-local tomopy
     conda build astra/.
