@@ -1,5 +1,5 @@
 Tomopy Recipes
-#############
+##############
 
 Example recipes for the new conda build system. Use::
 
@@ -7,6 +7,7 @@ Example recipes for the new conda build system. Use::
 
 We suggest that the correct order should be:
 
+::
 
     #download anaconda for linux64bits
     wget http://repo.continuum.io/archive/Anaconda2-4.0.0-Linux-x86_64.sh
@@ -32,7 +33,6 @@ We suggest that the correct order should be:
     conda build astra/.
     conda install --yes --use-local astra-toolbox
     cd ..
-
 
 This project ('tomopy-recipes') is in the public domain. Note that this 
 statement does not reflect in any way, shape or form the licenses of the
