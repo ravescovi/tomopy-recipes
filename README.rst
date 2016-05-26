@@ -17,21 +17,12 @@ We suggest that the correct order should be:
     git clone https://github.com/ravescovi/tomopy-recipes.git
     cd tomopy-recipes/
     conda build tifffile/.
-    conda install --yes --use-local tifffile --force
-    conda build edffile/.
-    conda install --yes --use-local edffile --force
-    conda build spefile/.
-    conda install --yes --use-local spefile --force
-    conda build dxfile/.
-    conda install --yes --use-local dxfile --force
-    conda build olefile/.
-    conda install --yes --use-local olefile --force
     conda build data-exchange/.
-    conda install --yes --use-local dxchange --force
+    conda install --yes --use-local dxchange
     conda build tomopy/. 
-    conda install --yes --use-local tomopy --force
+    conda install --yes --use-local tomopy
     conda build astra/.
-    conda install --yes --use-local astra-toolbox --force
+    conda install --yes --use-local astra-toolbox
     cd ..
 
 This project ('tomopy-recipes') is in the public domain. Note that this 
