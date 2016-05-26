@@ -16,7 +16,6 @@ We suggest that the correct order should be:
     
     git clone https://github.com/ravescovi/tomopy-recipes.git
     cd tomopy-recipes/
-    conda build tifffile/.
     conda build data-exchange/.
     conda install --yes --use-local dxchange
     conda build tomopy/. 
