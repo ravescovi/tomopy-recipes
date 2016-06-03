@@ -23,6 +23,8 @@ We suggest that the correct order should be:
     conda install --yes --use-local tomopy
     conda build astra/.
     conda install --yes --use-local astra-toolbox
+    conda build pysirtfbp/.
+    conda install --yes --use-local pysirtfbp=1.0.1
     cd ..
 
 This project ('tomopy-recipes') is in the public domain. Note that this 
