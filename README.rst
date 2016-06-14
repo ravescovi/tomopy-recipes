@@ -22,7 +22,7 @@ We suggest that the correct order should be:
     conda install --yes --use-local tomopy
     cd..
 
-::
+
 For the use of Astra Toolbox and different reconstruction plugins please use the lines bellow:
 ::
 
@@ -33,7 +33,7 @@ For the use of Astra Toolbox and different reconstruction plugins please use the
     conda install --yes --use-local sirtfbp=1.0.1
     cd ..
 
-::
+
 This project ('tomopy-recipes') is in the public domain. Note that this
 statement does not reflect in any way, shape or form the licenses of the
 projects which are being built from these recipes. For example, even
