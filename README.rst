@@ -20,10 +20,14 @@ We suggest that the correct order should be:
     conda install --yes --use-local dxchange
     conda build tomopy/. 
     conda install --yes --use-local tomopy
+    cd..
+
+For the use of Astra Toolbox and different reconstruction plugins please use the lines bellow:
+    cd tomopy-recipes/
     conda build astra/.
     conda install --yes --use-local astra-toolbox
     conda build pysirtfbp/.
-    conda install --yes --use-local pysirtfbp=1.0.1
+    conda install --yes --use-local sirtfbp=1.0.1
     cd ..
 
 This project ('tomopy-recipes') is in the public domain. Note that this 
