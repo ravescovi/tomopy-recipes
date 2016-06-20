@@ -24,6 +24,7 @@ We suggest that the correct order should be:
 
 
 For the use of Astra Toolbox and different reconstruction plugins please use the lines bellow:
+
 ::
 
     cd tomopy-recipes/
@@ -31,6 +32,8 @@ For the use of Astra Toolbox and different reconstruction plugins please use the
     conda install --yes --use-local astra-toolbox
     conda build pysirtfbp/.
     conda install --yes --use-local sirtfbp=1.0.1
+    conda build pytvtomo/.
+    conda install --yes --use-local pytvtomo
     cd ..
 
 
