@@ -20,7 +20,7 @@ We suggest that the correct order should be:
     conda install --yes --use-local dxchange
     conda build tomopy/. 
     conda install --yes --use-local tomopy
-    cd..
+    cd ..
 
 
 For the use of Astra Toolbox and different reconstruction plugins please use the lines bellow:
