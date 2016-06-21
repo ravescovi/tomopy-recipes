@@ -1,0 +1,33 @@
+package:
+  name: sirtfbp
+  version: '1.0.1'
+
+source:
+  path: .
+
+build:
+  number: 0
+
+test:
+  imports:
+    - sirtfbp
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+    - scipy
+    - astra-toolbox
+    - six
+    - numpy
+
+about:
+  home: http://dmpelt.github.io/pysirtfbp/
+  license: GPLv3
+  summary: 'Python implementation of the SIRT-FBP tomographic reconstruction method, published in: Pelt, D. M., & Batenburg, K. J. (2015). Accurately approximating algebraic tomographic reconstruction by filtered backprojection. In Proceedings of the 2015 International Meeting on Fully Three-Dimensional Image Reconstruction in Radiology and Nuclear Medicine.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

@@ -16,25 +16,28 @@ We suggest that the correct order should be:
     
     git clone https://github.com/ravescovi/tomopy-recipes.git
     cd tomopy-recipes/
-    conda build tifffile/.
-    conda install --yes --use-local tifffile --force
-    conda build edffile/.
-    conda install --yes --use-local edffile --force
-    conda build spefile/.
-    conda install --yes --use-local spefile --force
-    conda build dxfile/.
-    conda install --yes --use-local dxfile --force
-    conda build olefile/.
-    conda install --yes --use-local olefile --force
     conda build data-exchange/.
-    conda install --yes --use-local dxchange --force
+    conda install --yes --use-local dxchange
     conda build tomopy/. 
-    conda install --yes --use-local tomopy --force
+    conda install --yes --use-local tomopy
+    cd..
+
+
+For the use of Astra Toolbox and different reconstruction plugins please use the lines bellow:
+
+::
+
+    cd tomopy-recipes/
     conda build astra/.
-    conda install --yes --use-local astra-toolbox --force
+    conda install --yes --use-local astra-toolbox
+    conda build pysirtfbp/.
+    conda install --yes --use-local sirtfbp=1.0.1
+    conda build pytvtomo/.
+    conda install --yes --use-local pytvtomo
     cd ..
 
-This project ('tomopy-recipes') is in the public domain. Note that this 
+
+This project ('tomopy-recipes') is in the public domain. Note that this
 statement does not reflect in any way, shape or form the licenses of the
 projects which are being built from these recipes. For example, even
 though a project `foo` might have an MIT, Apache, or any other license,
