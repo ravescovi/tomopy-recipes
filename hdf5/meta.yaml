@@ -5,7 +5,7 @@ package:
 source:
   fn: hdf5-1.8.13.tar.bz2
   url: http://www.hdfgroup.org/ftp/HDF5/releases/hdf5-1.8.13/src/hdf5-1.8.13.tar.bz2
-  md5: b060bb137d6bd8accf8f0c4c59d2746d
+  md5: c03426e9e77d7766944654280b467289
 
 build:
   number: 0
